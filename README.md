@@ -17,7 +17,13 @@ Activate your IDF environment, e.g.
 $HOME/esp/esp-idf/export.sh
 ```
 
-and run
+Select ESP32-S3 as target, e.g. using the vscode extension or by running
+
+```
+idf.py set-target esp32s3
+```
+
+Finally, run
 
 ```
 idf.py build
